@@ -110,9 +110,9 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>5.2.4</version>
                 <configuration>
-                    <url>${db.url}</url>
-                    <user>${db.user}</user>
-                    <password>${db.password}</password>
+                    <url>jdbc:h2:~/bootstudy</url>
+                    <user>sa</user>
+                    <password>123</password>
                 </configuration>
                 <dependencies>
                     <dependency>
