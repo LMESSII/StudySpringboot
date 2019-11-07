@@ -5,6 +5,8 @@ import messi.boot.study.bootstudy.dto.AccessTokenDTO;
 import messi.boot.study.bootstudy.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
+
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 @Component
